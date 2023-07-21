@@ -64,7 +64,7 @@
             // 
             loOutput.AutoSize = true;
             loOutput.Font = new Font("Arial Rounded MT Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            loOutput.Location = new Point(59, 369);
+            loOutput.Location = new Point(59, 337);
             loOutput.Name = "loOutput";
             loOutput.Size = new Size(81, 24);
             loOutput.TabIndex = 2;
@@ -89,9 +89,11 @@
             // ctrlOutput
             // 
             ctrlOutput.Font = new Font("Arial Rounded MT Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            ctrlOutput.Location = new Point(177, 361);
+            ctrlOutput.Location = new Point(168, 334);
+            ctrlOutput.Multiline = true;
             ctrlOutput.Name = "ctrlOutput";
-            ctrlOutput.Size = new Size(148, 32);
+            ctrlOutput.ReadOnly = true;
+            ctrlOutput.Size = new Size(191, 99);
             ctrlOutput.TabIndex = 5;
             // 
             // ctrlAdd
@@ -103,6 +105,7 @@
             ctrlAdd.TabIndex = 6;
             ctrlAdd.Text = "Add";
             ctrlAdd.UseVisualStyleBackColor = true;
+            ctrlAdd.Click += ctrlAdd_Click;
             // 
             // ctrlSubtract
             // 
