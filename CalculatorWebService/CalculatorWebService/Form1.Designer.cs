@@ -105,7 +105,6 @@
             ctrlAdd.TabIndex = 6;
             ctrlAdd.Text = "Add";
             ctrlAdd.UseVisualStyleBackColor = true;
-            ctrlAdd.Click += ctrlAdd_Click;
             // 
             // ctrlSubtract
             // 
